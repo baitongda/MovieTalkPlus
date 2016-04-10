@@ -2,6 +2,7 @@
 
 import React from 'react-native';
 import Main from './myapp/android/Main';
+import User from './myapp/android/User';
 
 let {
   AppRegistry
@@ -10,7 +11,7 @@ let {
 class MovieTalkPlus extends React.Component {
   render(){
     return (
-      <Main/>
+      <User/>
     );
   }
 }

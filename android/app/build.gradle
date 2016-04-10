@@ -74,6 +74,10 @@ def enableSeparateBuildPerCPUArchitecture = false
 /**
  * Run Proguard to shrink the Java bytecode in release builds.
  */
+/*
+  23版本的构建工具构建
+  最低4.1.2->6.0
+*/
 def enableProguardInReleaseBuilds = false
 
 android {
@@ -83,7 +87,7 @@ android {
     defaultConfig {
         applicationId "com.movietalkplus"
         minSdkVersion 16
-        targetSdkVersion 22
+        targetSdkVersion 23
         versionCode 1
         versionName "1.0"
         ndk {

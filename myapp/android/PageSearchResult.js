@@ -22,7 +22,7 @@ class PageSearchResult extends React.Component {
             backgroundColor: '#6435c9',
             height: 56,
           }}
-          navIconName="chevron-left"
+          navIconName="android-arrow-back"
           onIconClicked={this.props.navigator.pop}
           title={this.props.query}
           titleColor="white"

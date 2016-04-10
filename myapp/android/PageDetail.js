@@ -20,7 +20,7 @@ class PageDetail extends React.Component {
             backgroundColor: '#6435c9',
             height: 56,
           }}
-          navIconName="chevron-left"
+          navIconName="android-arrow-back"
           onIconClicked={this.props.navigator.pop}
           title={this.props.movie.title}
           titleColor="white"
