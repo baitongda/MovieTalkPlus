@@ -11,7 +11,7 @@ let {
 class MovieTalkPlus extends React.Component {
   render(){
     return (
-      <User/>
+      <Main/>
     );
   }
 }
